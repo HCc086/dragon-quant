@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+/dist/
+/build/
+
+# 前端
+web_ui/frontend/node_modules/
+web_ui/frontend/dist/
+
+# 日志
+logs/
+
+# 编辑器
+.vscode/
+.idea/
+
+# 系统
+.DS_Store
+
+# 环境
+.env
+*.local
+.trae/*
+!.trae/skills/
+.trae/skills/*
+!.trae/skills/codemap/
+
+# 雪球 Cookie 缓存
+~/.lsa_xq_cookies
+.lsa_xq_cookies
+
+# 临时数据
+/tmp/lsa_*.json
+
+# 含敏感 Cookie 的接口参考（ut/ct 鉴权字段）
+dragon_quant/providers/east_money.md
